@@ -10,56 +10,41 @@ function Timeline() {
   return (
     <div id="history">
       <div className="items-container">
-        <h1>Career History</h1>
+        <h1>Professional History</h1>
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
+            date="May 2026 - August 2026"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            <h3 className="vertical-timeline-element-title">Develop for Good</h3>
+            <h4 className="vertical-timeline-element-subtitle">UX/UI Designer</h4>
             <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+              <ul>
+                <li>Redesigned a full-stack website for a non-profit organization from scratch using Figma.</li>
+                <li>Performed user research, created wireframes, and translated client requirements into user-centered interface solutions.</li>
+                <li>Conducted usability testing to ensure a seamless user experience.</li>
+                <li>Collaborated with a team of developers to implement the design and improve the overall functionality of the website.</li>
+              </ul>
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2022"
+            date="March 2025 - June 2026"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Wordplay.dev</h3>
+            <h4 className="vertical-timeline-element-subtitle">Contributor</h4>
             <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2021 - 2021"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
-          >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
-            <p>
-              Full-stack Development, API Development, User Experience
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2020 - 2020"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
-          >
-            <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
-            <p>
-              Automation, Data Governance, Statistical Analysis
+              <ul>
+                <li>Collaborated with localization and engineering teams to update key componenets of the platform for Spanish language support.</li>
+                <li>Performed iterative testing and WA on internationalized components, validating JSON-based text and configuration data to ensure consistency across UI/UX and backend text-processing piplines</li>
+                <li>Designed a modular content-moderation system using rule-based filters and text processing utilities to enforce publication policies across multiple languages.</li>
+              </ul>
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
