@@ -34,12 +34,12 @@ function Project() {
                 </p>
             </div>
             <div className="project">
-                <a href="https://github.com/jayortiz7/SEEattle" target="_blank" rel="noreferrer"><img src={mock04} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/jayortiz7/SEEattle" target="_blank" rel="noreferrer"><img src={mock04} className="zoom" alt="thumbnail" width="500px" height="300px"/></a>
                 <a href="https://github.com/jayortiz7/SEEattle" target="_blank" rel="noreferrer"><h2>SEEattle</h2></a>
                 <p>Developed a full-stack iOS application with Flutter and Dart. I created wireframes and implemented the client side database features using SQLite for storing user preferences and visited locations. I also implemented a local database using JSON for landmarks and locations.</p>
             </div>
             <div className="project">
-                <a href="https://wordplay.dev/" target="_blank" rel="noreferrer"><img src={mock05} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://wordplay.dev/" target="_blank" rel="noreferrer"><img src={mock05} className="zoom" alt="thumbnail" width="500px" height="300px"/></a>
                 <a href="https://wordplay.dev/" target="_blank" rel="noreferrer"><h2>Wordplay.dev</h2></a>
                 <p>Collaborated with localization and engineering teams to update key components of the platform for Spanish language support. 
                     <a href="https://github.com/wordplaydev/wordplay/issues/367" target="_blank" rel="noreferrer" > View issue here.</a>
